@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Apasear.mx - Inicio</title>
+    <title>Apasear.mx - Destinos</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -57,14 +57,14 @@
     <div class="grid md:grid-cols-2 gap-8">
         {{-- Viaje 1 --}}
         <div class="border rounded-lg overflow-hidden shadow-md">
-            <img src="{{ asset('images/nyc.jpg') }}" class="w-full h-60 object-cover" alt="Nueva York">
+            <img src="{{ asset('images/Colombia2.png') }}" class="w-full h-60 object-cover" alt="Nueva York">
             <div class="p-4">
                 <div class="flex items-center gap-2 text-yellow-500 mb-2">
-                    <img src="{{ asset('icons/pina.png') }}" class="w-5 h-5" alt="">
-                    <h2 class="text-lg font-semibold text-purple-700">Dale una mordida a la Gran Manzana</h2>
+                    <img src="{{ asset('images/icons8-tarjeta.png') }}" class="w-5 h-5" alt="">
+                    <h2 class="text-lg font-semibold text-purple-700">Preventa Navideña, Imperdibles de Colombia</h2>
                 </div>
-                <p class="italic text-gray-500">Nueva York, EEUU</p>
-                <a href="{{ route('viaje.detalle', ['id' => 1]) }}" class="mt-4 inline-block bg-purple-700 text-white px-4 py-2 rounded hover:bg-purple-800">
+                <p class="italic text-gray-500">Colombia, Sudamérica</p>
+                <a href="/colombia" class="mt-4 inline-block bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-800">
                     Más información
                 </a>
             </div>
@@ -72,14 +72,44 @@
 
         {{-- Viaje 2 --}}
         <div class="border rounded-lg overflow-hidden shadow-md">
-            <img src="{{ asset('images/cancun.jpg') }}" class="w-full h-60 object-cover" alt="Cancún">
+            <img src="{{ asset('images/EuropaNavidad.png') }}" class="w-full h-60 object-cover" alt="Cancún">
             <div class="p-4">
                 <div class="flex items-center gap-2 text-red-500 mb-2">
-                    <img src="{{ asset('icons/globo.png') }}" class="w-5 h-5" alt="">
-                    <h2 class="text-lg font-semibold text-purple-700">Conoce las profundidades del mar y su vida</h2>
+                    <img src="{{ asset('images/icons8-tarjeta.png') }}" class="w-5 h-5" alt="">
+                    <h2 class="text-lg font-semibold text-purple-700">Preventa Navideña, Europa estupendo 2025</h2>
                 </div>
-                <p class="italic text-gray-500">Cancún, México</p>
-                <a href="{{ route('viaje.detalle', ['id' => 2]) }}" class="mt-4 inline-block bg-purple-700 text-white px-4 py-2 rounded hover:bg-purple-800">
+                <p class="italic text-gray-500">Europa</p>
+                <a href="/europasinfronteras" class="mt-4 inline-block bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-800">
+                    Más información
+                </a>
+            </div>
+        </div>
+
+        {{-- Viaje 3 --}}
+        <div class="border rounded-lg overflow-hidden shadow-md">
+            <img src="{{ asset('images/EuropaNavidad2.png') }}" class="w-full h-60 object-cover" alt="Cancún">
+            <div class="p-4">
+                <div class="flex items-center gap-2 text-red-500 mb-2">
+                    <img src="{{ asset('images/icons8-tarjeta.png') }}" class="w-5 h-5" alt="">
+                    <h2 class="text-lg font-semibold text-purple-700">Preventa Navideña, Europa sin fronteras 2025</h2>
+                </div>
+                <p class="italic text-gray-500">Europa</p>
+                <a href="/europanavidenia" class="mt-4 inline-block bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-800">
+                    Más información
+                </a>
+            </div>
+        </div>
+
+        {{-- Viaje 4 --}}
+        <div class="border rounded-lg overflow-hidden shadow-md">
+            <img src="{{ asset('images/Turquia2.png') }}" class="w-full h-60 object-cover" alt="Cancún">
+            <div class="p-4">
+                <div class="flex items-center gap-2 text-red-500 mb-2">
+                    <img src="{{ asset('images/icons8-tarjeta.png') }}" class="w-5 h-5" alt="">
+                    <h2 class="text-lg font-semibold text-purple-700">Preventa Navideña, de regalo con Troya y Dubái</h2>
+                </div>
+                <p class="italic text-gray-500">Turquía, Europa</p>
+                <a href="/turquia" class="mt-4 inline-block bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-800">
                     Más información
                 </a>
             </div>
